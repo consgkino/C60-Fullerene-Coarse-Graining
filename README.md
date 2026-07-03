@@ -27,7 +27,7 @@ C60-Fullerene-Coarse-Graining/
 ├── cg_run/                       # Folder for coarse-grained simulation outputs
 ├── figures/                      # Folder containing result plots
 └── README.md
-
+```
 
 ## Results
 ![RDF comparison](figures/rdf_comparison_v2 copy.png)
