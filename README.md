@@ -39,3 +39,13 @@ The figure below compares the radial distribution function, \(g(r)\), between th
 The RDF shows the probability of finding another C60 molecule at a distance \(r\) from a reference molecule. At large distances, both curves should approach \(g(r)=1\), which corresponds to bulk-like behavior.
 
 The comparison shows that the coarse-grained model captures the general structural behavior of the all-atom reference. However, differences in the first peak position and peak height indicate that the Lennard-Jones coarse-grained model does not perfectly reproduce the atomistic structure.
+
+## Conclusion
+
+This project demonstrates the workflow for constructing and testing a coarse-grained model of C60 fullerene molecules. The all-atom model provides the reference behavior, while the coarse-grained model provides a simplified and computationally cheaper representation.
+
+The RDF comparison shows that the coarse-grained model can reproduce the general structural behavior of the all-atom system, but quantitative differences remain due to the simplification of representing each C60 molecule as a single bead.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
