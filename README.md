@@ -1,8 +1,9 @@
 # C60 Fullerene Coarse-Graining
 
-This repository contains the input files, Python scripts, and analysis results for a coarse-graining study of C60 fullerene molecules. The aim of the project is to compare an all-atom C60 model with a coarse-grained model where each C60 molecule is represented as a single bead.
+This repository contains the input files, Python scripts, and analysis results for a coarse-graining study of C60 fullerene molecules.
 
-The all-atom reference simulations are used to obtain structural information and interaction behavior between C60 molecules. The coarse-grained model is then tested by comparing its radial distribution function against the all-atom reference.
+The all-atom reference simulations are used to obtain structural information and interaction behavior between C60 molecules. The simulation was run using LAMMPS. The coarse-grained model is then tested by comparing its radial distribution function against the all-atom reference. Lennard-Jones potential, atomistic models and iterative Boltzmann models are compared
+
 
 ---
 
