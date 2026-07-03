@@ -1,1 +1,1 @@
-![RDF comparison](figures/rdf_comparison.png)
+![RDF comparison](figures/rdf_comparison_v2 copy.png)
