@@ -30,6 +30,7 @@ C60-Fullerene-Coarse-Graining/
 
 
 ## Results
+![RDF comparison](figures/rdf_comparison_v2 copy.png)
 
 ### Radial Distribution Function Comparison
 
