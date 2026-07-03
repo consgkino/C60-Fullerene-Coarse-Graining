@@ -15,7 +15,6 @@ In the all-atom model, each C60 molecule contains 60 carbon atoms and the intera
 This reduces the number of particles significantly and allows simulations to be performed more efficiently. However, the simplification also introduces quantitative errors, so the coarse-grained results must be compared carefully with the all-atom reference.
 
 ---
-
 ## Repository Structure
 
 ```text
@@ -30,30 +29,13 @@ C60-Fullerene-Coarse-Graining/
 ```
 
 ## Results
-![RDF comparison](figures/rdf_comparison_v2 copy.png)
 
 ### Radial Distribution Function Comparison
 
-The figure below compares the radial distribution function, \(g(r)\), of the all-atom C60 system and the coarse-grained C60 model.
+The figure below compares the radial distribution function, \(g(r)\), between the all-atom C60 reference simulation and the coarse-grained C60 model.
 
 ![RDF comparison](figures/rdf_comparison_v2%20copy.png)
 
-The RDF shows the probability of finding another C60 molecule at a distance \(r\) from a reference C60 molecule. At large distances, both curves should approach \(g(r)=1\), which corresponds to bulk-like behavior.
+The RDF shows the probability of finding another C60 molecule at a distance \(r\) from a reference molecule. At large distances, both curves should approach \(g(r)=1\), which corresponds to bulk-like behavior.
 
-The comparison shows that the coarse-grained model captures the overall structural behavior of the all-atom reference. However, differences in the first peak position and height indicate that the coarse-grained Lennard-Jones model does not reproduce the atomistic structure perfectly. This is expected because each C60 molecule is simplified into one spherical bead.
-
----
-
-### Interpretation of the RDF
-
-The first RDF peak corresponds to the most probable nearest-neighbor distance between C60 molecules. If the coarse-grained model were perfect, the first peak of the CG RDF would overlap with the all-atom RDF peak.
-
-Any shift in the first peak means that the effective bead-bead interaction does not produce exactly the same equilibrium spacing as the all-atom model. A difference in peak height means that the local ordering or packing strength is different between the two models.
-
-Therefore, the RDF comparison is useful for judging whether the coarse-grained potential gives a realistic structural description of the fullerene system.
-
----
-
-### Main Result
-
-The coarse-grained model reproduces the qualitative behavior of the all-atom system, especially the long-distance RDF behavior. However, quantitative differences remain near the first-neighbor region. This shows the limitation of representing a full C60 molecule as a single Lennard-Jones bead.
+The comparison shows that the coarse-grained model captures the general structural behavior of the all-atom reference. However, differences in the first peak position and peak height indicate that the Lennard-Jones coarse-grained model does not perfectly reproduce the atomistic structure.
